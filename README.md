@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Netero03/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Netero03/Leetcode/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/Netero03/Leetcode/tree/master/0056-merge-intervals) |
 | [0560-subarray-sum-equals-k](https://github.com/Netero03/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Netero03/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Netero03/Leetcode/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/Netero03/Leetcode/tree/master/0056-merge-intervals) |
 ## Hash Table
 |  |
 | ------- |
