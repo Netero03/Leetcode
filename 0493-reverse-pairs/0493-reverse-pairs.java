@@ -1,51 +1,52 @@
 class Solution {
     public int reversePairs(int[] nums) {
-        if (nums == null || nums.length < 2) {
-            return 0;
-        }
-        int[] temp = new int[nums.length];
-        return mergeSort(nums, temp, 0, nums.length - 1);
+        return mergeSort(nums, 0, nums.length - 1);
     }
 
-    private int mergeSort(int[] nums, int[] temp, int left, int right) {
-        if (left >= right) {
-            return 0;
+    static int mergeSort(int[] nums, int left, int right) {
+        int count = 0;
+        if (left < right) {
+            int mid = left + (right - left) / 2;
+
+            count += mergeSort(nums, left, mid);
+            count += mergeSort(nums, mid + 1, right);
+            count += merge(nums, left, mid, right);
         }
 
-        int mid = left + (right - left) / 2;
+        return count;
+    }
 
-        int count = mergeSort(nums, temp, left, mid) + mergeSort(nums, temp, mid + 1, right);
-
+    static int merge(int[] nums, int left, int mid, int right) {
+        int count = 0;
         int j = mid + 1;
+
+        // Step 1: Count reverse pairs separately
         for (int i = left; i <= mid; i++) {
-            while (j <= right && (long) nums[i] > 2L * nums[j]) {
+            while (j <= right && (long) nums[i] > 2 * (long) nums[j]) {
                 j++;
             }
             count += (j - (mid + 1));
         }
 
-        int i = left;
-        j = mid + 1;
-        int k = left;
+        // Step 2: Standard Merge Sort logic to actually sort the array
+        int[] temp = new int[right - left + 1];
+        int i = left, k = 0;
+        int m = mid + 1;
 
-        while (i <= mid && j <= right) {
-            if (nums[i] <= nums[j]) {
+        while (i <= mid && m <= right) {
+            if (nums[i] <= nums[m]) {
                 temp[k++] = nums[i++];
             } else {
-                temp[k++] = nums[j++];
+                temp[k++] = nums[m++];
             }
         }
 
-        while (i <= mid) {
+        while (i <= mid)
             temp[k++] = nums[i++];
-        }
+        while (m <= right)
+            temp[k++] = nums[m++];
 
-        while (j <= right) {
-            temp[k++] = nums[j++];
-        }
-
-        System.arraycopy(temp, left, nums, left, right - left + 1);
-
+        System.arraycopy(temp, 0, nums, left, temp.length);
         return count;
     }
 }
