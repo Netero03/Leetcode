@@ -7,8 +7,8 @@ class Solution {
         while(left<=right){
             mid = left + (right - left)/2;
 
-            if((long) mid*mid > (long) x) right=mid - 1;
-            else if(mid*mid == x) return mid;
+            if(mid*mid == x) return mid;
+            else if((long) mid*mid > (long) x) right=mid - 1;
             else left=mid + 1;
 
         }
