@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Netero03/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/Netero03/Leetcode/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/Netero03/Leetcode/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/Netero03/Leetcode/tree/master/0724-find-pivot-index) |
 ## Two Pointers
 |  |
 | ------- |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Netero03/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/Netero03/Leetcode/tree/master/0724-find-pivot-index) |
 ## Bit Manipulation
 |  |
 | ------- |
