@@ -8,16 +8,17 @@ class Solution {
 
         int count = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for(int i=0;i<nums.length;i++){
+
             prefixSum += nums[i];
 
-            int remove = prefixSum - k;
+            int remove = prefixSum - k ;
 
-            if (hm.containsKey(remove)) {
+            if(hm.containsKey(remove)){
                 count += hm.get(remove);
-            }
+            } 
 
-            hm.put(prefixSum, hm.getOrDefault(prefixSum, 0) + 1);
+            hm.put(prefixSum,hm.getOrDefault(prefixSum,0)+1);
         }
         return count;
     }
