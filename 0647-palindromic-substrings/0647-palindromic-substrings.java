@@ -3,21 +3,19 @@ class Solution {
         int n=s.length();
         int count=0;
         for(int i=0;i<n;i++){
-            for(int j=i;j<n;j++){
-                if(isPalindrome(s,i,j)==true){
-                    count++;
-                }
-            }
+            count += extend(s,i,i);
+            count += extend(s,i,i+1);  
         }  
-        return count; 
+        return count;  
     }
 
-    public boolean isPalindrome(String s, int left, int right){
-        while(left < right){
-            if(s.charAt(left++)!=s.charAt(right--)){
-                return false;
-            }
+    public int extend(String s, int left, int right){
+        int count=0;
+        while(left >= 0 && right < s.length() && s.charAt(left)==s.charAt(right)){
+            count++;
+            left--;
+            right++;
         }
-        return true;
+        return count;
     }
 }
