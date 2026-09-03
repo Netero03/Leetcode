@@ -4,6 +4,8 @@ class Solution {
         int left=0;
         int right=nums.length-1;
 
+        if(nums[0]>target) return 0;
+
         while(left<=right){
             int mid=left + (right-left)/2;
 
@@ -13,13 +15,11 @@ class Solution {
                 if( mid > 0 && nums[mid-1]<target) return mid;
                 right=mid-1;
             } else if(nums[mid]<target){
-                
                 left=mid+1;
             }
             
         }
 
-        if(nums[0]>target) return 0;
-        else return nums.length;
+        return nums.length;
     }
 }
