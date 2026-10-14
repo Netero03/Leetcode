@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Netero03/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/Netero03/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Netero03/Leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Netero03/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Netero03/Leetcode/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Netero03/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0088-merge-sorted-array](https://github.com/Netero03/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Netero03/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/Netero03/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Netero03/Leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Netero03/Leetcode/tree/master/0055-jump-game) |
 | [0152-maximum-product-subarray](https://github.com/Netero03/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0647-palindromic-substrings](https://github.com/Netero03/Leetcode/tree/master/0647-palindromic-substrings) |
 ## Math
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Netero03/Leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/Netero03/Leetcode/tree/master/0055-jump-game) |
 | [0680-valid-palindrome-ii](https://github.com/Netero03/Leetcode/tree/master/0680-valid-palindrome-ii) |
 ## Manacher
 |  |
