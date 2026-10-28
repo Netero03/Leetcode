@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Netero03/Leetcode/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/Netero03/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Netero03/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Netero03/Leetcode/tree/master/0018-4sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Netero03/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Netero03/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/Netero03/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0014-longest-common-prefix](https://github.com/Netero03/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0344-reverse-string](https://github.com/Netero03/Leetcode/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/Netero03/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/Netero03/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -189,4 +191,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Netero03/Leetcode/tree/master/0042-trapping-rain-water) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Netero03/Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
